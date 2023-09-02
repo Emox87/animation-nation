@@ -201,5 +201,15 @@ section#contact {
 }
 
 
-
 /* Media Query: Large Smartphone (Vertical) */
+@media (max-width: 600px) {
+  section#home a {
+    top: 1.6rem;
+    left: 1.6rem;
+  }
+
+  .menu-bars {
+    top: .8rem;
+    right: 1.6rem;
+  }
+}
